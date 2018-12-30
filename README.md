@@ -13,7 +13,7 @@
 
 # Learn Greek
 
-Project built using Gastby, React and Bootstrap - whilst also 
+Project built using Gatsby, React and Bootstrap - whilst also 
 learning some greek 😊 
 
 #### To Run locally
