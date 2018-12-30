@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 const Navigation = ({ siteTitle }) => (
-  <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
     <div className="container">
       <a className="navbar-brand" href="#">Learn Greek</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
