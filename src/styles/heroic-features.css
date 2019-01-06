@@ -17,3 +17,8 @@ body {
 .card {
   height: 100%;
 }
+
+.card-img-top {
+  height: 165px;
+  object-fit: cover;
+}

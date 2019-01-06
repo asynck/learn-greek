@@ -6,16 +6,18 @@
  */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+* {
+  box-sizing: border-box;
+}
+
 html {
+  height: 100%;
   font-family: 'Montserrat', sans-serif;
 }
 
 body {
+  height: 100%;
   background: linear-gradient(to bottom, #B6DCEC  0%, #296997 100%);
-}
-
-.jumbotron {
-  background-color: initial;
 }
 
 .btn-primary {
@@ -34,5 +36,8 @@ body {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #CEA51D;
 }

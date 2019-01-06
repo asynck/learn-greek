@@ -1,0 +1,84 @@
+
+  [
+    {
+      "Category": {
+        "en": "Fruit",
+        "el": "Milo",
+        "description": "Learn the greek words for the most common fruit."
+      },
+      "Words": [
+        {
+          "en": "Apple",
+          "el": "Milo"
+        },
+        {
+          "en": "Apple",
+          "el": "Milo"
+        },
+        {
+          "en": "Apple",
+          "el": "Milo"
+        }
+      ]
+    },
+    {
+      "Category": {
+        "en": "Colours",
+        "el": "Chromata",
+        "description": "Learn the colours."
+      },
+      "Words": [
+        {
+          "en": "Blue",
+          "el": "Bla"
+        },
+        {
+          "en": "Black",
+          "el": "Mavrovo"
+        },
+        {
+          "en": "Pink",
+          "el": "Rosa"
+        },
+        {
+          "en": "White",
+          "el": "Asprovo"
+        }
+      ]
+    },
+    {
+      "Category": {
+        "en": "Drinks",
+        "el": "Pota",
+        "description": "Learn some drinks."
+      },
+      "Words": [
+        {
+          "en": "Coffee",
+          "el": "Cafes"
+        },
+        {
+          "en": "Water",
+          "el": "Nero - pronounced NerO"
+        }
+      ]
+    },
+    {
+      "Category": {
+        "en": "Grammar",
+        "el": "Milo",
+        "description": "Learn some grammar"
+      },
+      "Words": [
+        {
+          "en": "And",
+          "el": "que"
+        },
+        {
+          "en": "I am",
+          "el": "E mae"
+        }
+      ]
+    }
+  ]
+
