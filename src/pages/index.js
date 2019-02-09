@@ -6,7 +6,7 @@ import Home from '../components/Home/Home';
 
 const IndexPage = ({ data }) => {
   const urlParams = new URLSearchParams(
-    typeof window !== undefined ? window.location.search : ''
+    typeof window !== 'undefined' ? window.location.search : ''
   );
   const categoryName = urlParams.get('category');
 
