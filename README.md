@@ -13,20 +13,16 @@
 
 # Learn Greek
 
-Project built using Gatsby, React and Bootstrap - whilst also 
+A simple project to start playing around with Gatsby, Bootstrap and GraphQL - whilst also 
 learning some greek 😊 
 
 #### To Run locally
 
 `gatsby develop`
 
-#### TODO
+This will start http://localhost:8000/
 
-fonts
-coloring
+To view the graphQL API http://localhost:8000/__graphql
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 

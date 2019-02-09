@@ -1,0 +1,9 @@
+// Your variable overrides
+$body-bg: #fff;
+
+$theme-colors: (
+  "primary": #296997,
+  "secondary": #CEA51D
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";

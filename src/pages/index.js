@@ -2,38 +2,18 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Card from '../components/Home/Card';
-import '../components/Home/home.css';
+import Home from '../components/Home/Home';
 
 const IndexPage = ({ data }) => {
-  /**const urlParams = new URLSearchParams(
+  const urlParams = new URLSearchParams(
     typeof window !== undefined ? window.location.search : ''
   );
-  const myParam = urlParams.get('artist');
-  let band;
-  if (myParam) {
-    for (let i = 0; i < data.allArtistJson.edges.length; i++) {
-      if (
-        data.allArtistJson.edges[i].node.Name.toLowerCase() ===
-        myParam.toLowerCase()
-      ) {
-        band = data.allArtistJson.edges[i].node;
-      }
-    }
-  }*/
+  const categoryName = urlParams.get('category');
 
   return (
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      <div className="container">
-        <div className="categories">
-          <div className="row text-center">
-            {data.allWordsJson.edges.map(x => {
-              return <Card category={x.node.Category} />;
-            })}
-          </div>
-        </div>
-      </div>
+      <Home data={data} categoryName={categoryName} />
     </Layout>
   );
 };
@@ -45,10 +25,12 @@ export const pageQuery = graphql`
     allWordsJson {
       edges {
         node {
-          Category {
+          en
+          el
+          description
+          words {
             en
             el
-            description
           }
         }
       }

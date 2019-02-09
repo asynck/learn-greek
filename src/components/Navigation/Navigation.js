@@ -1,14 +1,13 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
+import './navigation.css';
 
 const Navigation = ({ siteTitle }) => (
-  <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+  <nav className="navbar navbar-expand-lg bg-primary navbar-dark fixed-top">
     <div className="container">
-      <a className="navbar-brand" href="#">
+      <button className="navbar-brand btn btn-link">
         Welcome to learning greek!
-      </a>
-      <button
+      </button>
+      {/**<button
         className="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -43,7 +42,7 @@ const Navigation = ({ siteTitle }) => (
             </a>
           </li>
         </ul>
-      </div>
+      </div>*/}
     </div>
   </nav>
 );
