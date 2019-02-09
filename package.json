@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "learn-greek",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Learn some simple greek words",
+  "version": "1.0",
+  "author": "Laura Meikle",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "gatsby": "^2.0.76",
@@ -25,7 +25,7 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "greek", "learn"
   ],
   "license": "MIT",
   "scripts": {
@@ -42,9 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/lmeikle/learn-greek"
   }
 }
