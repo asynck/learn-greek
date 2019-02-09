@@ -24,5 +24,9 @@ This will start http://localhost:8000/
 
 To view the graphQL API http://localhost:8000/__graphql
 
+#### To Deploy to GutHub pages
 
+`npm run deploy`
+
+https://lmeikle.github.io/learn-greek/
 
